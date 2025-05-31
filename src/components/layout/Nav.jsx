@@ -24,7 +24,7 @@ const ToggleButton = styled.button`
     position: fixed;
     top: 170px;
     left: 0;
-    width: 30px;
+    width: 50px;
     height: 80px;
     background-color: #0055ff;
     border: none;
@@ -44,6 +44,12 @@ const ToggleButton = styled.button`
     }
 `;
 
+const Emoji = styled.p`
+    font-size: 30px;  // 30px에서 더 크게
+    margin: 0;        // 문단 기본 마진 제거 권장
+`
+
+
 function Nav() {
     const [isVisible, setIsVisible] = useState(false);
 
@@ -54,7 +60,7 @@ function Nav() {
                 onMouseLeave={() => setIsVisible(false)}
                 aria-label="Toggle navigation"
             >
-                ☰
+                <Emoji>🤿</Emoji>
             </ToggleButton>
             <NavWrapper
                 isVisible={isVisible}
