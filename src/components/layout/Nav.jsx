@@ -6,7 +6,7 @@ const NavWrapper = styled.nav`
     width: 250px;
     height: 100vh;
     position: fixed;
-    top: 170px;
+    top: 150px;
     left: 0;
     background-color: blue;
     padding-top: 20px;
@@ -24,7 +24,7 @@ const ToggleButton = styled.button`
     position: fixed;
     top: 170px;
     left: 0;
-    width: 50px;
+    width: 220px;
     height: 80px;
     background-color: #0055ff;
     border: none;
@@ -53,6 +53,8 @@ const Emoji = styled.p`
 function Nav() {
     const [isVisible, setIsVisible] = useState(false);
 
+
+
     return (
         <>
             <ToggleButton
@@ -60,7 +62,7 @@ function Nav() {
                 onMouseLeave={() => setIsVisible(false)}
                 aria-label="Toggle navigation"
             >
-                <Emoji>🤿</Emoji>
+                <p>메인 메뉴</p><Emoji>🤿</Emoji>
             </ToggleButton>
             <NavWrapper
                 isVisible={isVisible}

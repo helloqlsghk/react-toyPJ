@@ -36,7 +36,7 @@ const Title = styled.h2`
 function Header(){
   return(
       <HeaderWrapper>
-            <Title>펄다이브 다이빙샵</Title>
+            <Title>다이빙샵</Title>
           {/*<MenuContainer>              */}
           {/*      <Menu>Nav</Menu>*/}
           {/*      <Menu>menu1</Menu>*/}

@@ -19,11 +19,11 @@ const ContentWrapper = styled.div`
     padding: 20px;
 `;
 
-function Content() {
+function Content({ children }) {
     return (
         <LayoutWrapper>
             <SideImage />
-            <ContentWrapper>여기는 Content</ContentWrapper>
+                <ContentWrapper>{ children }</ContentWrapper>
             <SideImage />
         </LayoutWrapper>
     );

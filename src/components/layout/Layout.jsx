@@ -21,42 +21,13 @@ const BodyWrapper = styled.div`
 
 function Layout(props) {
 
-    const child =
-        <p>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-            aaaaaaaaaaaaaaaaaaaaaaaaa<br/>
-    </p>
-
-
 
     return (
         <LayoutWrapper>
             <Header />
             <Nav />
             <Content>
-                {child}
+
             </Content>
             <Footer />
         </LayoutWrapper>
