@@ -8,21 +8,6 @@ const HeaderWrapper = styled.header`
     background-color: lightskyblue;    
 `
 
-// const MenuContainer = styled.ul`
-//     display: flex;
-//     justify-content: center;
-//     list-style: none;
-//     padding: 0;
-//     margin-top: 10px;
-// `;
-//
-// const Menu = styled.li`
-//     margin: 0 15px;
-//     font-weight: bold;
-// `;
-
-
-
 const Title = styled.h2`
     display: flex;
     justify-content: center;
